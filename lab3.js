@@ -1,13 +1,11 @@
 //Instructions
 
-//Define a function named cube that takes one number as a paramter
+//Define a function named cube that takes one number as a parameter
 //and returns that number cubed (times itself three times):
 
-
-
-//         (use this space)
-
-
+function cube(number){
+    return number * number * number;
+}
 
 
 
@@ -16,7 +14,7 @@
 
 //Define a function that takes a number and an expected result, calls the cube() function
 //and check that the return value matches the expected result.
-//If the answer is wrong log an aditional message
+//If the answer is wrong log an additional message
 function test(n, expectedResult){
     let result = cube(n);
     console.log(`cube(${n}) == ${expectedResult}? ${result == expectedResult}`);
